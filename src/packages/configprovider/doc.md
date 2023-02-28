@@ -92,6 +92,7 @@ page {
   --nutui-brand-color-start: #ff404f;
   --nutui-brand-color-end: #fa2c19;
   --nutui-brand-link-color: #396acc;
+  --nutui-brand-text-color: #ffffff;
   --nutui-gray-0: #000000;
   // 主要内容用色，常用语常规标题内容、细文浏览、常规按钮文字以及图表引导。
   --nutui-gray-1: #1a1a1a;
@@ -159,5 +160,5 @@ export default App;
 
 | 参数     | 说明     | 类型      | 默认值  |
 |--------|--------|---------|------|
-| locale | 设置多语言包 | `BaseLang` | zhCN |
-| theme      | 设置主题   |    `Record<string, string>`     | -    |
+| locale | 设置多语言包 | BaseLang | zhCN |
+| theme      | 设置主题   |    Record<string, string>     | -    |

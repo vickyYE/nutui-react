@@ -148,9 +148,9 @@ export default App
 
 | 名称                 | 说明           | 回调参数 |
 |--------------------| -------------- | -------- |
-| change`v1.2.0（废弃）` | 输入内容时触发 | val      |
-| focus`v1.2.0（废弃）`             | 聚焦时触发     | val      |
-| blur`v1.2.0（废弃）`             | 失焦时触发     | val      |
+| change`v1.2.0 废弃` | 输入内容时触发 | val      |
+| focus`v1.2.0 废弃`             | 聚焦时触发     | val      |
+| blur`v1.2.0 废弃`             | 失焦时触发     | val      |
 | onChange           | 输入内容时触发 | val      |
 | onFocus            | 聚焦时触发     | val      |
 | onBlur             | 失焦时触发     | val      |
@@ -166,6 +166,9 @@ export default App
 | --- | --- |
 | --nutui-textarea-font | ` $font-size-2` |
 | --nutui-textarea-height | ` 100px` |
+| --nutui-textarea-padding`v1.4.8` | ` 16px 10px 16px 16px `|
 | --nutui-textarea-limit-color | ` $text-color` |
 | --nutui-textarea-text-color | ` $title-color` |
+| --nutui-textarea-text-curror-color`v1.4.8`  | `$title-color`|
+| --nutui-textarea-text-line-height`v1.4.8`  | ` 30px` |
 | --nutui-textarea-disabled-color | `  $disable-color` |

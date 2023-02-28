@@ -1,4 +1,101 @@
-# v.14.5
+# v1.4.8
+`2023-02-15`
+
+* :sparkles: feat(configprovider): demo 增加国际化 (#706) @eiinu
+* :sparkles: feat(rate): demo 增加国际化 (#704) @eiinu
+* :sparkles: feat(shortpassword): demo 增加国际化 (#705) @eiinu
+* :sparkles: feat(shortpassword): 支持自动聚焦 (#693) @Kason Yang
+* :sparkles: feat(sidenavbar): demo 增加国际化 (#709) @eiinu
+* :sparkles: feat(switch): demo 增加国际化 (#708) @eiinu
+* :sparkles: feat(tag): demo 增加国际化 (#707) @eiinu
+* :sparkles: feat: badge组件增加元素提取，增加徽章border设置，完善文档，补充多语言支持 (#697) @xiaoyatong
+* :sparkles: feat: calendar 适配taro 功能增强 (#715) @xiaoyatong
+* :sparkles: feat: cascader 增加checkedIcon属性，增加视觉元素提取，增加自定义样式demo (#719) @xiaoyatong
+* :sparkles: feat: checkbox 增加group样式 (#721) @xiaoyatong
+* :sparkles: feat: collapse 提取变量，增加多语言支持，补充demo (#691) @xiaoyatong
+* :sparkles: feat: inputnumber 增加 buttons 的样式，提取元素变量，增加demo (#685) @xiaoyatong
+* :sparkles: feat: popover 增加交互样式，提取元素变量 (#681) @xiaoyatong
+* :sparkles: feat: steps组件调整样式布局，增加点状样式等，提取元素变量，增加demo (#712) @xiaoyatong
+* :sparkles: feat: swipe 组件对外暴露 open 和 close 方法，优化 taro 版本下 width 的计算时机 (#714) @oasis-cloud
+* :sparkles: feat: tabbar 组件增加受控的 activeVisible 属性 (#711) @oasis-cloud
+* :sparkles: feat: tabs 组件增加 leftAlign 属性；提取视觉元素变量；修复disable 时有 active 状态的问题 (#674) @xiaoyatong
+* :sparkles: feat: textarea 提取元素变量，增加demo演示 (#688) @xiaoyatong
+* :sparkles: feat: 多个组件 demo 完善国际化 (#710) @eiinu
+* :sparkles: feat: 新增form-item的validator校验和重置提示状态功能 (#689) @junjun666
+* :sparkles: feat: 新增taro uploader的multiple属性 (#686) @junjun666
+* :sparkles: feat: 新增表单组件Form.useForm()创建form控制实例的功能 (#679) @junjun666
+* :bug: fix(layout): 修复布局组件 `Row` 和 `Col` 的 className 设置问题 (#683) @AnteeHub
+* :bug: fix: badge初始化classname (#722) @xiaoyatong
+* :bug: fix: button plain的样式 (#678) @xiaoyatong
+* :bug: fix: cascader 没有传递 ref 参数 (#699) @oasis-cloud
+* :bug: fix: checkboxgroup组件通过options渲染时组件选中值反填问题 (#680) @cuicuiworld
+* :bug: fix: ellipsis 展开和关闭操作应该阻止事件冒泡 (#700) @oasis-cloud
+* :bug: fix: radio 支持 换行 (#675) @xiaoyatong
+* :bug: fix: switch 组件的元素变量修改 (#690) @xiaoyatong
+* :bug: fix: textarea 禁用状态仍然可以输入 (#687) @oasis-cloud
+* :bug: fix: 修复 taro 版本中 dialog 组件的 lockScroll 属性，重构 taro 版本的 dialog 类型，去掉函数调… (#702) @oasis-cloud
+* :bug: fix: 修改taro的inputnumber输入框键盘输入异常问题 (#703) @junjun666
+* :bug: fix: 类型错误，修复 @hanyuxinting
+* 🔨 chore: button 组件增加 opentype 示例 @oasis-cloud
+* 🔨 chore: 统一 classnames 导出名称 (#684) @eiinu
+* 🔨 chore: 重构h5和taro环境下 barrage组件代码并修复loop循环的问题 (#717) @junjun666
+* 📖 docs: dialog 组件的 taro 文档去掉函数调用方式 (#677) @oasis-cloud
+
+
+# v1.4.7
+`2023-02-15`
+
+* :sparkles: feat: swiper 新增重新计算尺寸方法，文档修改 (#649) @lkjh3214
+* :sparkles: feat: button 增加iconSize 属性，提取视觉元素变量 (#654) @xiaoyatong
+* :sparkles: feat: form表单组件新增initialValue初始值属性 (#671) @junjun666
+* :sparkles: feat: popup增加closeiconsize属性，提取元素变量 (#663) @xiaoyatong
+* :sparkles: feat: progress 提取元素变量，去掉无意义属性，增加fillcolor demo (#662) @xiaoyatong
+* :sparkles: feat: searchbar 新增 cleariconsize，提取元素变量 (#660) @xiaoyatong
+* :sparkles: feat: swipe 组件对外暴露 onTouchStart onTouchMove onTouchEnd 事件 (#656) @oasis-cloud
+* :sparkles: feat: swiper 增加元素变量提取 (#666) @xiaoyatong
+* :sparkles: feat: tabbar增加视觉变量，调整样式布局，支持独立配置icon大小 (#653) @xiaoyatong
+* :sparkles: feat: tag 增加iconSize属性，提取元素变量 (#657) @xiaoyatong
+* :bug: fix: ellipsis内存泄露 (#646) @Kason Yang
+* :bug: fix: numberkeyboard add new props overlay (#661) @Drjingfubo
+* :bug: fix: checkboxgroup options渲染 (#638) @Kason Yang
+* :bug: fix: docs “废弃”格式不一致，统一修复 (#652) @xiaoyatong
+* :bug: fix: jest waring (#651) @oasis-cloud
+* :bug: fix: radio 反转样式，不可选状态默认也不可选 (#659) @xiaoyatong
+* :bug: fix: 修改elevator组件自定义内容使用方式 (#630) @拧巴的猫
+* :bug: fix: 暗黑模式下部分组件样式问题 (#670) @xiaoyatong
+* 🔨 chore: 本地开发切换到模拟器后，刷新页面跳转到demo (#669) @oasis-cloud
+* 📖 docs: button 文档 (#655) @xiaoyatong
+* 📖 docs: progress 文档修改 (#673) @xiaoyatong
+
+
+# v1.4.6
+`2023-02-08`
+
+* :sparkles: feat: image 组件增加懒加载 (#615) @vickyYe
+* :sparkles: feat: sticky 适配 taro (#613) @libin0824
+* :bug: fix: 修复 fixednav 组件的 zIndex (#643) @oasis-cloud
+* :bug: fix: 修复 taro h5 有些 api 未导出导致报错 (#642) @oasis-cloud
+* :bug: fix: 修复 overlay 组件 style 不生效的问题 (#641) @oasis-cloud
+* :bug: fix: 修复获取元素的大小和位置信息未判断元素是否存在 (#640) @oasis-cloud
+* :bug: fix: 修复 taro h5 virtualList 组件demo中的字号 (#639) @oasis-cloud
+* :bug: fix: 修复 taro h5 有些 api 未导出导致报错 (#637) @oasis-cloud
+* :bug: fix: 修复 address 组件无法设置标题 (#622) @yangxiaolu1993
+* :bug: fix: 修复小程序环境下 overlay 组件滚动穿透的问题 (#621) @junjun666
+* :bug: fix: 修复 docs 在线调试问题。 (#631) @xiaoyatong
+* :bug: fix: 修复 FormItem 代理子元素 onChange 后忽略了原属性的问题 (#619) @sun
+* :bug: fix: SearchBar 组件样式修改，排版错误问题处理 (#632) @Ymm
+* :bug: fix: 补充 tag 组件缺少的样式变量，修复在线调试问题 (#635) @eiinu
+* :bug: fix: image 组件 demo 优化 (#636) @vickyYe
+* :bug: fix: noticebar 组件在卸载时不应该初始化动画 (#634) @oasis-cloud
+* :bug: fix: icon 组件未设置 width、height 时，不应出现在 style 上 (#628) @oasis-cloud
+* :bug: fix: input 组件在暗黑模式下 label 颜色错误 (#627) @oasis-cloud
+* :bug: fix: popup 动效优化 (#620) @xiaoyatong
+* :bug: fix: image 组件更新后无法移除 loading 状态 (#625) @oasis-cloud
+* 🔨 chore: 删除 avatar 不必要的打印日志 (#623) @Antee
+* 🔨 chore: 开发环境优化 (#626) @oasis-cloud
+
+
+# v.1.4.5
 `2023-02-01`
 
 * :sparkles: feat: virtuallist 组件适配 taro (#602) @vickyYe

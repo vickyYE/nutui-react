@@ -389,7 +389,7 @@ export default App;
 | 字段                   | 说明 | 回调参数 |
 |----------------------| ----- | ----- |
 | onConfirm            | 点击确认按钮时候回调 | 返回选中值 value，选中值对象 |
-| onChoose`v1.2.2(废弃)` | 每一列值变更时调用 | 依次返回this、改变的列数，改变值，当前选中值 |
+| onChoose`v1.2.2 废弃` | 每一列值变更时调用 | 依次返回this、改变的列数，改变值，当前选中值 |
 | onChange`v1.2.2`     | 每一列值变更时调用   | 改变的列数，改变值 value，当前选中值 |
 | onCloseUpdate        | 联动时，关闭时回调   | 当前选中值，依次返回this |
 | onClose              | 关闭时触发          | 返回选中值 value，选中值对象 |
@@ -411,9 +411,11 @@ export default App;
 | --nutui-picker-bar-title-font-size | `  16px` |
 | --nutui-picker-bar-title-color | `  $title-color` |
 | --nutui-picker-bar-title-font-weight | `  normal` |
+| --nutui-picker-list-height`v1.4.9` | ` 252px` |
 | --nutui-picker-item-height | ` 36px` |
 | --nutui-picker-item-text-color | `  $title-color` |
 | --nutui-picker-item-active-text-color | `  inherit` |
 | --nutui-picker-item-text-font-size | `  14px` |
 | --nutui-picker-item-active-line-border | `  1px solid #d8d8d8` |
 | --nutui-picker-columns-item-color | `  $title-color` |
+| --nutui-picker-mask-bg-img`v1.4.9` | `  linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4)),linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.4))` |
